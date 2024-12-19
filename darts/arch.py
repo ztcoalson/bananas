@@ -4,7 +4,7 @@ import os
 import copy
 import random
 
-sys.path.append(os.path.expanduser('~/darts/cnn'))
+sys.path.append('./darts/darts/cnn')
 from train_class import Train
 
 OPS = ['none',

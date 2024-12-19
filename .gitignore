@@ -20,3 +20,8 @@ nasbench_only108.tfrecord
 *data.pkl
 *log.txt
 
+# log files
+eval-*
+
+# conda env
+env-BANANAS
