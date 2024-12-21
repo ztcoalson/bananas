@@ -34,7 +34,7 @@ class Data:
         elif search_space == 'nasbench':
                 self.nasbench = api.NASBench(nasbench_folder + 'nasbench_only108.tfrecord')
         elif search_space == 'nasbench_201':
-            self.nasbench = API(os.path.expanduser('~/nas-bench-201/NAS-Bench-201-v1_0-e61699.pth'))
+            self.nasbench = API('../data/NAS-Bench-201-v1_0-e61699.pth')
         elif search_space != 'darts':
             print(search_space, 'is not a valid search space')
             sys.exit()

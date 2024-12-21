@@ -62,7 +62,7 @@ def meta_neuralnet_params(param_str):
 
     elif param_str == 'nasbench_201_cifar10':
         params = {'search_space':'nasbench_201', 'dataset':'cifar10', 'loss':'mae', 'num_layers':10, 'layer_width':20, \
-            'epochs':150, 'batch_size':32, 'lr':.01, 'regularization':0, 'verbose':0}
+            'epochs':150, 'batch_size':32, 'lr':.01, 'regularization':0, 'verbose':1}
 
     elif param_str == 'nasbench_201_cifar100':
         params = {'search_space':'nasbench_201', 'dataset':'cifar100', 'loss':'mae', 'num_layers':10, 'layer_width':20, \

@@ -186,7 +186,7 @@ def bananas(search_space,
             candidate_predictions.append(np.squeeze(meta_neuralnet.predict(xcandidates)))
 
             # clear the tensorflow graph
-            tf.reset_default_graph()
+            tf.compat.v1.reset_default_graph()
 
         tf.keras.backend.clear_session()
 
